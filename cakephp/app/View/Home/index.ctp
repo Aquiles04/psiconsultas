@@ -30,7 +30,8 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><button><?php echo $this->Html->link("Cadastre-se", array('controller'=>'Psicoterapeutas','action' => 'add')); ?></button></li>
+								<li><button><?php echo $this->Html->link("Cadastro Psicologo", array('controller'=>'Psicologos','action' => 'add')); ?></button></li>
+								<li><button><?php echo $this->Html->link("Cadastro Cliente", array('controller'=>'Clientes','action' => 'add')); ?></button></li>
 							</ul>
 						</nav>
 

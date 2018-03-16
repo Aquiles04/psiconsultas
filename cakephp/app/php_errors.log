@@ -216,3 +216,27 @@
 [04-Nov-2017 01:32:49 UTC] PHP   5. class_exists() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:266
 [04-Nov-2017 01:32:49 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:266
 [04-Nov-2017 01:32:49 UTC] PHP   7. App::load() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[16-Mar-2018 00:42:02 UTC] PHP Fatal error:  Call to a member function save() on a non-object in /home/ubuntu/workspace/cakephp/app/Controller/ClientesController.php on line 22
+[16-Mar-2018 00:42:02 UTC] PHP Stack trace:
+[16-Mar-2018 00:42:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cakephp/app/webroot/index.php:0
+[16-Mar-2018 00:42:02 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/cakephp/app/webroot/index.php:118
+[16-Mar-2018 00:42:02 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[16-Mar-2018 00:42:02 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:193
+[16-Mar-2018 00:42:02 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/cakephp/lib/Cake/Controller/Controller.php:491
+[16-Mar-2018 00:42:02 UTC] PHP   6. ClientesController->add() /home/ubuntu/workspace/cakephp/lib/Cake/Controller/Controller.php:491
+[16-Mar-2018 00:43:59 UTC] PHP Fatal error:  Call to a member function save() on a non-object in /home/ubuntu/workspace/cakephp/app/Controller/ClientesController.php on line 22
+[16-Mar-2018 00:43:59 UTC] PHP Stack trace:
+[16-Mar-2018 00:43:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cakephp/app/webroot/index.php:0
+[16-Mar-2018 00:43:59 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/cakephp/app/webroot/index.php:118
+[16-Mar-2018 00:43:59 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[16-Mar-2018 00:43:59 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:193
+[16-Mar-2018 00:43:59 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/cakephp/lib/Cake/Controller/Controller.php:491
+[16-Mar-2018 00:43:59 UTC] PHP   6. ClientesController->add() /home/ubuntu/workspace/cakephp/lib/Cake/Controller/Controller.php:491
+[16-Mar-2018 01:25:08 UTC] PHP Fatal error:  Call to a member function save() on a non-object in /home/ubuntu/workspace/cakephp/app/Controller/PsicologosController.php on line 23
+[16-Mar-2018 01:25:08 UTC] PHP Stack trace:
+[16-Mar-2018 01:25:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cakephp/app/webroot/index.php:0
+[16-Mar-2018 01:25:08 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/cakephp/app/webroot/index.php:118
+[16-Mar-2018 01:25:08 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[16-Mar-2018 01:25:08 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/cakephp/lib/Cake/Routing/Dispatcher.php:193
+[16-Mar-2018 01:25:08 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/cakephp/lib/Cake/Controller/Controller.php:491
+[16-Mar-2018 01:25:08 UTC] PHP   6. PsicologosController->add() /home/ubuntu/workspace/cakephp/lib/Cake/Controller/Controller.php:491
